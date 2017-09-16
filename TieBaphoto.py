@@ -142,6 +142,9 @@ class SpidernePage:
 			except :
 				Log.log(2, l)
 if __name__ == '__main__':
+	"""
+	if you have some trouble here , it may be that you donnot create the file named "photo"
+	"""
 	workplace = os.getcwd()
 	workplace = workplace.replace('\\','\\\\')
 	Log = iLoveLog(workplace)
